@@ -40,6 +40,7 @@ Open http://localhost:4000/graphql
 
 ## To create a property:
 
+```
 mutation {
 createListing(listingInput: {name: "Property 3",description:"Beautiful and Amazing Property" area: 1000, price: 35, imageLink: "Test", baths: 1, beds: 1, builtInYear: 1902, parking: "Yes", view: "Yes"}) {
 name
@@ -47,9 +48,11 @@ area
 \_id
 }
 }
+```
 
 ## To list all the properties on GraphQL interface:
 
+```
 query{
 listings(getListingInput:{\_id:""}){
 name
@@ -65,11 +68,13 @@ view
 description
 }
 }
+```
 
 -- Pass a specific property Id to display the content of particular listing
 
 ## To edit a property:
 
+```
 mutation {
 editListing(editListingInput:{\_id: "614ba1b70e9731632e48732f", name: "Property 5", area: 1200, price: 35, imageLink: "Test", baths: 1, beds: 1, builtInYear: 1902, parking: "Yes", view: "Yes",description:"Test"}){
 name
@@ -77,6 +82,7 @@ area
 description
 }
 }
+```
 
 ## Future Improvements:
 
