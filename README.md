@@ -34,6 +34,25 @@ Steps:
 
 MongoDB is already setup and credentials are available in nodemon.json file.
 
+Sample collection :
+
+```
+{
+        "name": "Pershore Street",
+        "_id": "614bbc5d61422a507a8fd163",
+        "area": 1000,
+        "price": 35,
+        "imageLink": "Test",
+        "baths": 1,
+        "beds": 1,
+        "builtInYear": 1902,
+        "parking": "Yes",
+        "view": "Yes",
+        "description": "Beautiful and Amazing Property"
+      }
+
+```
+
 ## GraphQL to create and edit property
 
 Open http://localhost:4000/graphql
