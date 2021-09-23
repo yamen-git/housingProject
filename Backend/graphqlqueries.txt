@@ -1,0 +1,30 @@
+# mutation {
+#   createListing(listingInput: {name: "Property 5", area: 1000, price: 35, imageLink: "Test", baths: 1, beds: 1, builtInYear: 1902, parking: "Yes", view: "Yes"}) {
+#     name
+#     area
+#   }
+# }
+
+query{
+  listings{
+    name
+    _id
+    area
+    price
+    imageLink
+    baths
+    beds
+    builtInYear
+    parking
+    view
+  }
+}
+
+# mutation {
+#   editListing(editListingInput:{_id: "614aa6f53ab8e84a4289e616", name: "Property 5", area: 1200, price: 35, imageLink: "Test", baths: 1, beds: 1, builtInYear: 1902, parking: "Yes", view: "Yes"}){
+#     name
+#     area
+#   }
+# }
+
+https://www.youtube.com/watch?v=VdwH3RDRXNM

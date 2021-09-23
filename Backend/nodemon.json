@@ -1,0 +1,7 @@
+{
+  "env": {
+    "MONGO_USER": "enduser",
+    "MONGO_PASSWORD": "nPscKH0Ji2c9Vfb3",
+    "MONGO_DB": "housingproject"
+  }
+}
