@@ -49,7 +49,7 @@ Sample collection :
         "parking": "Yes",
         "view": "Yes",
         "description": "Beautiful and Amazing Property"
-      }
+}
 
 ```
 
